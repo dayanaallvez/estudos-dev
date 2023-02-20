@@ -1,4 +1,4 @@
-# Projeto: Meu primeiro site "cinge"
+# Projeto: Meu primeiro site "cringe"
  Missão prática | Nível 01 | Mundo 02
  
 # Descrição
