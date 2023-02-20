@@ -2,7 +2,7 @@
  Missão prática | Nível 02 | Mundo 02
  
 # Descrição
- Exemplos de diferentes formas de utilização do Java Script no lado do cliente, uso de JSON na transmissão de dados e framework VUE JS>
+ Exemplos de diferentes formas de utilização do Java Script no lado do cliente, uso de JSON na transmissão de dados e framework VUE JS.
 
 # Objetivo
  Utilizar o Java Script no lado cliente.
