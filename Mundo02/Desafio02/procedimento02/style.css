@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    color: #263238;
+    margin: 15px;
+}
+
+.card {
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.30);
+    margin: 10px;
+}
+
+.card-title {
+
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.card-text p {
+    display: flex;
+    font-size: 0.9375rem;
+}
+
+ul {
+    font-size: 0.9375rem;
+}

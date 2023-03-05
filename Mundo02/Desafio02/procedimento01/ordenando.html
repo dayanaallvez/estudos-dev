@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1º Procedimento | Ordenando com Java Script e DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ordenando Valores</h1>
+    </header>
+    <main>
+        <form>
+            <div class="dados_entrada">
+                <label for="valor">Valor</label>
+                <input class="input_valor" type="number" name="valor" id="valor">
+                <input class="botao" type="button" value="Adicionar" onclick="add()">
+            </div>
+            <div class="ordenar_dados">
+                <select name="opcoes" id="opcoes">
+                    <option selected value="blubbleSort">Blubble Sort</option>
+                    <option value="selectionSort">Selection Sort</option>
+                    <option value="quickSort">Quick Sort</option>
+                </select>
+                <input class="botao" type="button" value="Ordenar" onclick="ordenar()">
+                <input class="botao" type="button" value="Misturar" onclick="misturar()">
+            </div>
+            <div class="ordenacao">
+                <ul id="valores"></ul>
+            </div>
+        </form>
+    </main>
+    <script src="ordenando.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(239, 252, 252);
+    margin: 0 10%;
+}
+
+header {
+    margin: 2rem;
+}
+
+header h1 {
+    color: rgb(27, 27, 27);
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: rgb(202, 16, 53);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 3px;
+}
+
+form {
+    margin: 3rem;
+}
+
+.dados_entrada label {
+    font-size: 1.06rem;
+    font-weight: 500;
+}
+
+.dados_entrada > .input_valor,
+.ordenar_dados > select {
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 500;
+    width: 100%;
+    height: 30px;
+    border: 1.3px grey solid;
+    border-radius: 5px;
+    padding: 0 7px;
+    margin: 10px auto;
+}
+
+
+.botao {
+    width: 105px;
+    height: 35px;
+    background-color: rgb(202, 16, 53);
+    color: beige;
+    font-weight: 500;
+    margin: 5px 5px 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: rgb(185, 5, 41);
+    transform: translate(-0.5px, -0.5px);
+    cursor: pointer;
+}
+
+.botao:active {
+    transform: scale(97%);
+}
+
+.ordenacao {
+    margin: 1rem 2rem;
+}
+
+.ordenacao ul li {
+    font-weight: 400;
+}
