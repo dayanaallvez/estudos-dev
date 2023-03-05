@@ -74,7 +74,7 @@ const partition = (vetor, inicio, fim) => {
 }
 
 
-// Manipulação do para manipular o DOM
+// Funções add, ordenar e misturar
 function add() {
     let numero = document.getElementById("valor");
     let listaValores = document.getElementById("valores")
