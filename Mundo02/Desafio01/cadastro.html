@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imagens/favicon.ico" type="image/x-icon">
+    <title>Tia Jurema | Cadastro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/formatos.css">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+</head>
+<body>
+    <header>
+        <a class="logotipo" href="home.html" target="_self"><img src="assets/imagens/logo.png" alt="Logo receitas da tia Jurena"><strong class="texto-logo">Tia<span>Jurema</span></strong></a>
+        <nav>
+            <input type="checkbox" name="check" id="check">
+            <label for="check" class="btn-menu">
+                <i class='bx bx-menu'></i>
+            </label>
+            <ul class="menu">
+                <li><a href="home.html">Home</span></a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a class="menu-cadastro" href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container-principal">
+            <h1 class="titulo-form">Efetue seu cadastro</h1>
+            <form class="row g-3" action="mailto:emailteste@email.com" method="post" enctype="text/plain"> <!--Email fictício utilizado apenas para demonstração-->
+                <div class="col-md-6">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="rua" class="form-label">Rua</label>
+                    <input type="text" class="form-control" name="rua" id="rua" required>
+                </div>
+                <div class="col-md-5">
+                    <label for="complemento" class="form-label">Complemento</label>
+                    <input type="text" class="form-control" name="complemento" id="complemento" required>
+                </div>
+                <div class="col-md-2">
+                    <label for="numero" class="form-label">Nº</label>
+                    <input type="number" class="form-control" name="numero" id="numero" required>
+                </div>
+                <div class="col-md-5">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="number" class="form-control" name="cep" id="cep" required>
+                </div>
+                <div class="col-md-5">
+                    <label for="cidade" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" name="cidade" id="cidade" required>
+                </div>
+                <div class="col-md-2">
+                    <label for="uf" class="form-label">UF</label>
+                    <input type="text" class="form-control" name="uf" id="uf" required>
+                </div>
+                <div class="col-md-5 mt-auto" style="text-align: right;">
+                    <button type="submit" class="btn btn-warning">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Jurema 2023</p>
+    </footer>
+</body>
+</html>

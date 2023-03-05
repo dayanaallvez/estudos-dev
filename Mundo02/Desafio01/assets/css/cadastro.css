@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.titulo-form {
+    font-size: 1.5625rem;
+    font-weight: 500;
+}
+
+.titulo-form::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    background-color: #ED7D31;
+    margin: 0 auto;
+    position: absolute;
+}
+
+label, input, button {
+    margin: 4px 0;
+}
+
+
+.btn-warning {
+    background-color: #ED7D31;
+    color: white;
+    border: none;
+    transform: translate(1px, 1px);
+    transition: all .3s linear;
+}
+
+.btn-warning:hover {
+    color: white;
+    background-color: #dd7631;
+    transform: scale(1);
+}
